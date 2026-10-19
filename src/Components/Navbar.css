@@ -1,0 +1,19 @@
+/* src/Components/MyNavbar.css */
+.navbar-custom {
+    /* background-color: #f5e6be; */
+    position: absolute;
+    width: 100%;
+    z-index: 10; /* Ensure the navbar is above other elements */
+    
+  }
+  
+
+  .navbar-custom .nav-link {
+    transition: color 0.3s, border-bottom 0.3s;
+    font-family: sans-serif !important;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: rgb(12, 92, 12);
+  }
+  
